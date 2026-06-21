@@ -1,9 +1,11 @@
 import { Navbar } from '@/components/layout/Navbar';
+import { HeroSection } from '@/sections/hero/HeroSection';
 
 export default function App() {
   return (
     <main className='min-h-screen bg-[#0A0D12]'>
       <Navbar />
+      <HeroSection />
 
       {/* Placeholder Hero */}
       <section

@@ -47,13 +47,13 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className='hidden lg:block'>
-            <ul className='flex items-center gap-20'>
+            <ul className='flex items-center gap-10'>
               {navigationItems.map((item) => (
                 <li key={item.label}>
                   <button
                     type='button'
                     onClick={() => handleNavigation(item.href)}
-                    className='font-mulish text-base font-medium tracking-[-0.03em] text-white transition-opacity hover:opacity-80'
+                    className='font-sans text-base font-medium tracking-[-0.03em] text-white transition-opacity hover:opacity-80'
                   >
                     {item.label}
                   </button>
