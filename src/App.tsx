@@ -1,7 +1,26 @@
+import { Navbar } from '@/components/layout/Navbar';
+
 export default function App() {
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <h1 className='text-4xl font-bold'>Portfolio Personal Profile</h1>
-    </div>
+    <main className='min-h-screen bg-[#0A0D12]'>
+      <Navbar />
+
+      {/* Placeholder Hero */}
+      <section
+        id='home'
+        className='flex min-h-screen items-center justify-center pt-20'
+      >
+        <h1 className='text-5xl font-bold text-white'>
+          Portfolio Personal Profile
+        </h1>
+      </section>
+
+      {/* Temporary Sections */}
+      <section id='about' className='h-screen' />
+      <section id='skill' className='h-screen' />
+      <section id='projects' className='h-screen' />
+      <section id='faq' className='h-screen' />
+      <section id='contact' className='h-screen' />
+    </main>
   );
 }
