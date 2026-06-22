@@ -7,10 +7,8 @@ export function AboutHeader() {
         </span>
       </div>
 
-      <h2 className='max-w-90.25 text-center font-sans text-display-sm font-extrabold leading-display-sm tracking-[-0.03em] text-[#181D27] md:max-w-175 md:text-5xl md:leading-tight'>
-        The Developer Behind
-        <br />
-        the Pixel
+      <h2 className='max-w-90.25 text-center font-sans text-display-sm font-extrabold leading-display-sm tracking-[-0.03em] text-[#181D27] lg:max-w-175 lg:text-display-xl lg:leading-display-xl '>
+        The Developer Behind the Pixel
       </h2>
     </div>
   );

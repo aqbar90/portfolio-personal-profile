@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 export function PortfolioCardHeader() {
   return (
     <div className='flex items-start justify-between'>
-      <div className='max-w-48 space-y-1'>
+      <div className='max-w-48 lg:max-w-82 space-y-1'>
         <h3 className='text-xl font-bold leading-xl text-neutral-25'>
           Check My Portfolio
         </h3>
