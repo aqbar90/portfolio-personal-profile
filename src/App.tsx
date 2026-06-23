@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/sections/hero/HeroSection';
 import { AboutSection } from './sections/about/AboutSection';
+import { SkillsetSection } from './sections/skillset/SkillsetSection';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <SkillsetSection />
 
       {/* Placeholder Hero */}
       <section
