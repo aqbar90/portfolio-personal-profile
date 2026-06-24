@@ -14,6 +14,10 @@ export const navigationItems: NavigationItem[] = [
     href: '#skill',
   },
   {
+    label: 'Superiority',
+    href: '#superiority',
+  },
+  {
     label: 'Projects',
     href: '#projects',
   },

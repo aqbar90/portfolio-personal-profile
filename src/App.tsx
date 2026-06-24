@@ -2,14 +2,16 @@ import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/sections/hero/HeroSection';
 import { AboutSection } from './sections/about/AboutSection';
 import { SkillsetSection } from './sections/skillset/SkillsetSection';
+import { SuperioritySection } from './sections/superiority/SuperioritySection';
 
 export default function App() {
   return (
-    <main className='min-h-screen bg-[#0A0D12]'>
+    <main className='min-h-screen bg-white'>
       <Navbar />
       <HeroSection />
       <AboutSection />
       <SkillsetSection />
+      <SuperioritySection />
 
       {/* Placeholder Hero */}
       <section
