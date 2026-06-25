@@ -1,4 +1,4 @@
-import gridPattern from '@/assets/hero/Grid-pattern.svg';
+import gridPattern from '@/assets/hero/grid-pattern.svg';
 
 export function HeroBackground() {
   return (
