@@ -4,6 +4,7 @@ import { AboutSection } from './sections/about/AboutSection';
 import { SkillsetSection } from './sections/skillset/SkillsetSection';
 import { SuperioritySection } from './sections/superiority/SuperioritySection';
 import { PortfolioSection } from './sections/portfolio/PortfolioSection';
+import { WorkExperienceSection } from './sections/work-experience/WorkExperienceSection';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <SkillsetSection />
       <SuperioritySection />
       <PortfolioSection />
+      <WorkExperienceSection />
 
       {/* Placeholder Hero */}
       <section
