@@ -257,3 +257,32 @@
 .dark .surface-card {
   background: var(--color-card);
 }
+
+@keyframes testimony-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-wrapper {
+  display: flex;
+  width: max-content;
+  animation: testimony-marquee 100s linear infinite;
+  will-change: transform;
+  gap: 1.5em;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-wrapper {
+    animation: none;
+  }
+}
