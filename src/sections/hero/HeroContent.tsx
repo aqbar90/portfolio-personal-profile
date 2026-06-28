@@ -20,7 +20,7 @@ export function HeroContent() {
         </p>
       </div>
 
-      <Button className='h-11 w-full rounded-full bg-white font-mulish text-sm font-bold text-[#0A0D12] hover:bg-white/90 lg:w-75 lg:text-base'>
+      <Button className='h-11 w-full rounded-full bg-white font-mulish text-sm font-bold text-[#0A0D12] hover:bg-white/80 hover:cursor-pointer active:scale-95 lg:w-75 lg:text-base'>
         Say Hello
       </Button>
     </div>

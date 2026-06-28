@@ -37,7 +37,7 @@ export function PortfolioCarousel() {
         <button
           type='button'
           onClick={handlePrevious}
-          className='flex size-10 items-center justify-center rounded-full border border-neutral-300 hover:bg-brand-primary active:scale-90'
+          className='flex size-10 items-center justify-center rounded-full border border-neutral-300 hover:bg-neutral-400 hover:cursor-pointer active:scale-95'
         >
           <ChevronLeft className='size-6' />
         </button>
@@ -45,7 +45,7 @@ export function PortfolioCarousel() {
         <button
           type='button'
           onClick={handleNext}
-          className='flex size-10 items-center justify-center rounded-full border border-neutral-300 hover:bg-brand-primary active:scale-90'
+          className='flex size-10 items-center justify-center rounded-full border border-neutral-300 hover:bg-neutral-400 hover:cursor-pointer active:scale-95'
         >
           <ChevronRight className='size-6' />
         </button>

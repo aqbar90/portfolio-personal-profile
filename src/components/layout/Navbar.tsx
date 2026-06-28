@@ -47,7 +47,7 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className='hidden lg:block'>
-            <ul className='flex items-center gap-10'>
+            <ul className='flex items-center gap-5'>
               {navigationItems.map((item) => (
                 <li key={item.label}>
                   <button
@@ -67,7 +67,7 @@ export function Navbar() {
             <Button
               type='button'
               onClick={() => handleNavigation(hireMeLink)}
-              className='h-11 w-60 rounded-full bg-white font-mulish text-base font-bold text-[#0A0D12] hover:bg-white/90'
+              className='h-11 w-60 rounded-full bg-white font-mulish text-base font-bold text-[#0A0D12] hover:bg-white/80 hover:cursor-pointer active:scale-95'
             >
               Hire Me
             </Button>

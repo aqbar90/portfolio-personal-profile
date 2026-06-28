@@ -28,10 +28,12 @@ export function FAQAccordion() {
 
           <Accordion.Content
             className='
-            overflow-hidden data-[state=open]:animate-accordion-down data-[state=closed]:animate-accordion-up p-3
+            overflow-hidden data-[state=open]:animate-accordion-down data-[state=closed]:animate-accordion-up
           '
           >
-            {faq.answer && <FAQAnswer answer={faq.answer} />}
+            <div className='p-3'>
+              {faq.answer && <FAQAnswer answer={faq.answer} />}
+            </div>
           </Accordion.Content>
         </Accordion.Item>
       ))}
