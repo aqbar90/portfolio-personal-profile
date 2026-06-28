@@ -27,10 +27,12 @@ export function PortfolioCarousel() {
           title={currentPortfolio.title}
           image={currentPortfolio.image}
         />
-        <PortfolioCard
-          title={nextPortfolio.title}
-          image={nextPortfolio.image}
-        />
+        <div className='hidden lg:block lg:w-full'>
+          <PortfolioCard
+            title={nextPortfolio.title}
+            image={nextPortfolio.image}
+          />
+        </div>
       </div>
 
       <div className='flex justify-center gap-3 lg:gap-4'>

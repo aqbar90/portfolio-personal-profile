@@ -1,9 +1,12 @@
+import { Container } from '@/components/shared/Container';
 import { FooterCopyright } from './FooterCopyright';
 
 export function FooterSection() {
   return (
     <footer className='bg-neutral-950'>
-      <FooterCopyright />
+      <Container>
+        <FooterCopyright />
+      </Container>
     </footer>
   );
 }

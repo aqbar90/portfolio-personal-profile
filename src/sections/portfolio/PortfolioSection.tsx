@@ -1,13 +1,16 @@
+import { Container } from '@/components/shared/Container';
 import { PortfolioCarousel } from './PortfolioCarousel';
 import { PortfolioHeader } from './PortfolioHeader';
 
 export function PortfolioSection() {
   return (
-    <section id='portfolio' className='px-2.5 py-10 lg:px-32 lg:py-20'>
-      <div className='flex flex-col gap-6 lg:gap-12'>
-        <PortfolioHeader />
-        <PortfolioCarousel />
-      </div>
+    <section id='portfolio' className='py-10 lg:py-20'>
+      <Container>
+        <div className='flex flex-col gap-6 lg:gap-12'>
+          <PortfolioHeader />
+          <PortfolioCarousel />
+        </div>
+      </Container>
     </section>
   );
 }

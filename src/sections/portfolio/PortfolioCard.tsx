@@ -5,7 +5,7 @@ interface PortfolioCardProps {
 
 export function PortfolioCard({ title, image }: PortfolioCardProps) {
   return (
-    <article className='relative w-full overflow-hidden rounded-2xl lg:flex-1'>
+    <article className='relative w-full overflow-hidden rounded-2xl '>
       <img
         src={image}
         alt={title}
