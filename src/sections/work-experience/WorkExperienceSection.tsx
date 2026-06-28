@@ -3,6 +3,7 @@ import { WorkExperienceHeader } from './WorkExperienceHeader';
 import mobilePattern from '@/assets/work-experience/mobile-pattern.svg';
 import desktopPattern1 from '@/assets/work-experience/desktop-pattern1.svg';
 import desktopPattern2 from '@/assets/work-experience/desktop-pattern2.svg';
+import { Container } from '@/components/shared/Container';
 
 export function WorkExperienceSection() {
   return (
@@ -29,12 +30,14 @@ export function WorkExperienceSection() {
         />
       </div>
 
-      <div className='relative z-20 px-4 py-10 lg:px-32 lg:py-20'>
-        <div className='mx-auto flex w-full flex-col gap-6'>
-          <WorkExperienceHeader />
+      <div className='relative z-20 py-10  lg:py-20'>
+        <Container>
+          <div className='mx-auto flex w-full flex-col gap-6'>
+            <WorkExperienceHeader />
 
-          <Timeline />
-        </div>
+            <Timeline />
+          </div>
+        </Container>
       </div>
     </section>
   );
