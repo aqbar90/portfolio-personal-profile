@@ -7,8 +7,20 @@ import { Button } from '@/components/ui/button';
 import { ComparisonCard } from './ComparisonCard';
 import { SuperiorityHeader } from './SuperiorityHeader';
 import { strengths, weaknesses } from './superiority-data';
+import { hireMeLink } from '@/constants/navigation';
 
 export function SuperioritySection() {
+  const handleNavigation = (href: string) => {
+    const element = document.querySelector(href);
+
+    if (!element) return;
+
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
+
   return (
     <section id='superiority' className='px-4 py-10 lg:py-20 lg:px-30'>
       <div className='flex max-w-screen flex-col gap-6 lg:gap-12'>
@@ -31,7 +43,11 @@ export function SuperioritySection() {
           />
         </div>
         <div className='flex justify-center'>
-          <Button className='text-md leading-md tracking-tight font-bold text-white py-7 w-full bg-brand-primary rounded-full lg:w-80'>
+          <Button
+            type='button'
+            onClick={() => handleNavigation(hireMeLink)}
+            className='text-md leading-md tracking-tight font-bold text-white py-7 w-full bg-brand-primary rounded-full lg:w-80 hover:bg-brand-primary-dark hover:cursor-pointer active:scale-95'
+          >
             Hire Me
           </Button>
         </div>

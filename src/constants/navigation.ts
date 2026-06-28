@@ -18,8 +18,16 @@ export const navigationItems: NavigationItem[] = [
     href: '#superiority',
   },
   {
-    label: 'Projects',
-    href: '#projects',
+    label: 'Portfolio',
+    href: '#portfolio',
+  },
+  {
+    label: 'Work Experience',
+    href: '#experience',
+  },
+  {
+    label: 'Testimony',
+    href: '#testimony',
   },
   {
     label: 'FAQ',
